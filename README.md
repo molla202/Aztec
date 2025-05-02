@@ -98,11 +98,8 @@ aztec-up alpha-testnet
 ```
 ## Aztec Seq ; 
 
-#### Screen ; 
 
-```bash
-screen -S aztec
-```
+
 ```bash
 sudo tee /etc/systemd/system/aztec.service > /dev/null <<EOF
 [Unit]
