@@ -87,6 +87,14 @@ bash -i <(curl -s https://install.aztec.network)
 source .bash_profile
 ```
 
+## Aztec Seq ; 
+```
+sudo ln -s $HOME/.aztec/bin/aztec /usr/local/bin/aztec -f
+sudo ln -s $HOME/.aztec/bin/.aztec-run /usr/local/bin/.aztec-run -f
+sudo ln -s $HOME/.aztec/bin/aztec-up /usr/local/bin/aztec-up -f
+sudo ln -s $HOME/.aztec/bin/aztec-nargo /usr/local/bin/aztec-nargo -f
+sudo ln -s $HOME/.aztec/bin/aztec-wallet /usr/local/bin/aztec-wallet -f
+```
 #### Try ; 
 ```bash
 aztec
@@ -96,10 +104,7 @@ aztec
 ```bash
 aztec-up alpha-testnet
 ```
-## Aztec Seq ; 
-```
-sudo ln -s $HOME/.aztec/bin/aztec /usr/local/bin/aztec -f
-```
+### Servis
 ```bash
 sudo tee /etc/systemd/system/aztec.service > /dev/null <<EOF
 [Unit]
