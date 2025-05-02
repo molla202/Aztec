@@ -134,6 +134,13 @@ EOF
 - RPC_URL ; Sepolia RPC
 - BEACON_URL ; Beacon RPC
 
+
+```
+systemctl daemon-reload
+systemctl enable aztec.service
+sudo systemctl restart selfchaind
+journalctl -fu aztec.service -o cat
+```
 #### Sepolia ; 
 
 ![image](https://github.com/user-attachments/assets/2700bb9d-5f38-4548-82ee-49e8045e46bc)
