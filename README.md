@@ -97,9 +97,9 @@ aztec
 aztec-up alpha-testnet
 ```
 ## Aztec Seq ; 
-
-
-
+```
+sudo ln -s $HOME/.aztec/bin/aztec /usr/local/bin/aztec -f
+```
 ```bash
 sudo tee /etc/systemd/system/aztec.service > /dev/null <<EOF
 [Unit]
