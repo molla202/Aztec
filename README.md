@@ -138,7 +138,7 @@ EOF
 ```
 systemctl daemon-reload
 systemctl enable aztec.service
-sudo systemctl restart selfchaind
+sudo systemctl restart aztec.service
 journalctl -fu aztec.service -o cat
 ```
 #### Sepolia ; 
