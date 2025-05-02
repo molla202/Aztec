@@ -131,6 +131,7 @@ EOF
 ```
 
 - 0xYourPrivateKey ; Metamask Private key
+- 0xYourAddress ; yazdığınız privatenin adresi
 - RPC_URL ; Sepolia RPC
 - BEACON_URL ; Beacon RPC
 
