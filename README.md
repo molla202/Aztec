@@ -114,7 +114,7 @@ After=network.target
 [Service]
 User=root
 WorkingDirectory=/root
-ExecStart=/usr/local/bin/$(which aztec) start --node --archiver --sequencer \
+ExecStart=$(which aztec) start --node --archiver --sequencer \
   --network alpha-testnet \
   --l1-rpc-urls RPC_URL \
   --l1-consensus-host-urls BEACON_URL \
